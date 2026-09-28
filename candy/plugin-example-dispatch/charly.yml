@@ -1,7 +1,5 @@
-version: 2026.232.0520
 plugin-example-dispatch:
     candy:
-        version: 2026.181.0001
         description: |-
             Reference OUT-OF-TREE plugin proving the F10 reverse legs: during its own Invoke (run
             with a reverse channel) it calls BACK to the host to (1) INVOKE ANOTHER plugin's verb
