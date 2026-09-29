@@ -46,8 +46,11 @@ legs are being exercised:
 ## Related
 
 - Owning skill: `/charly-internals:plugin` — the plugin/provider model and the
-  reverse-channel legs. This candy carries no `skill:` entity of its own; the gap
-  is tracked in
-  [opencharly/opencharly#291](https://github.com/opencharly/opencharly/issues/291).
+  reverse-channel legs. The candy-specific owning `skill:` entity is not yet
+  authored; the thematic batch cutover
+  [opencharly/opencharly#291](https://github.com/opencharly/opencharly/issues/291)
+  owns authoring it for every candy family, and this repo's docs leg advances
+  that batch by recording its gap there
+  ([wave-4 gap record](https://github.com/opencharly/opencharly/issues/291#issuecomment-5881645261)).
 - `/charly-internals:install-plan` — the executor reverse channel.
 - [`opencharly/charly`](https://github.com/opencharly/charly) — the charly CLI.
